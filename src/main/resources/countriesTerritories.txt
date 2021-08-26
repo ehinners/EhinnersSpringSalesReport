@@ -1,0 +1,342 @@
+//PACIFIC OCEAN (40)
+Austral Islands
+Australia
+Bismarck Archipelago (Admiralty Islands, Bougainville, New Britain, New Ireland)
+Chatham Islands
+Cook Islands (Aitutaki, Penrhyn, Rarotonga)
+Easter Island
+Fiji Islands
+French Polynesia (Gambier, Tahiti, Tuamotu)
+Galapagos Islands
+Guam
+Hawaiian Islands
+Juan Fernandez Islands (Robinson Crusoe Island)
+Kiribati (Gilberts, Tarawa, Ocean Island)
+Line/Phoenix Islands (Canton, Christmas, Enderbury, Fanning)
+Lord Howe Island
+Marquesas Islands
+Marshall Islands, Republic of (Eniwetok, Kwajalein, Majuro)
+Micronesia, Fed.States of (Caroline Islands, Chuuk, Kosrae, Pohnpei, Yap)
+Midway Island
+Nauru
+New Caledonia & Dependencies (L’Île-des-Pins, Loyalty Islands)
+New Zealand
+Niue
+Norfolk Island
+Northern Marianas (Saipan, Tinian)
+Ogasawara (Bonin, Iwo Jima, Volcano Island)
+Palau, Republic of
+Papua New Guinea
+Pitcairn Island
+Ryukyu Islands (Okinawa)
+Samoa, American
+Samoa
+Solomon Islands (Guadalcanal, New Georgia, Tulagi)
+Tasmania
+Tokelau Islands (Atafu, Fakaofu, Union)
+Tonga (Nukualofa)
+Tuvalu (Ellice Island, Funafuti, Vaitapu)
+Vanuatu (New Hebrides Islands)
+Wake Island
+Wallis & Futuna Islands
+//NORTH AMERICA (6)
+Alaska
+Canada
+Mexico
+Prince Edward Island
+St. Pierre & Miquelon
+United States (Contiguous)
+//CENTRAL AMERICA (7)
+Belize
+Costa Rica
+El Salvador
+Guatemala
+Honduras
+Nicaragua
+Panama
+//SOUTH AMERICA (14)
+Argentina
+Bolivia
+Brazil
+Chile
+Colombia
+Ecuador
+French Guiana
+Guyana
+Nueva Esparta (Margarita Island)
+Paraguay
+Peru
+Suriname
+Uruguay
+Venezuela
+//CARIBBEAN (30)
+Anguilla
+Antigua & Barbuda
+Aruba
+Bahamas
+Barbados
+Bonaire
+Cayman Islands
+Cuba
+Curacao
+Dominica
+Dominican Republic
+Grenada & Dependencies (Carriacou, Grenadines)
+Guadeloupe & Dependencies (Marie Galante)
+Haiti
+Jamaica
+Martinique
+Montserrat
+Puerto Rico
+Saba & Sint Eustatius
+St. Barthélemy
+St. Kitts & Nevis
+St. Lucia
+St. Martin (France)
+St. Vincent & the Grenadines
+San Andres & Providencia
+Sint Maarten (Netherlands)
+Trinidad & Tobago
+Turks & Caicos Islands
+Virgin Islands, British (Tortola, etc.)
+Virgin Islands, U.S. (St. Croix, St. John, St. Thomas)
+//ATLANTIC OCEAN (14)
+Ascension
+Azores Islands
+Bermuda
+Canary Islands
+Cape Verde Islands
+Falkland Islands
+Faroe Islands
+Fernando de Noronha
+Greenland (Kalaallit Nunaat)
+Iceland
+Madeira
+South Georgia & the South Sandwich Islands
+St. Helena
+Tristan da Cunha
+//EUROPE & MEDITERRANEAN (68)
+Aland Islands
+Albania
+Andorra
+Austria
+Balearic Islands (Ibiza, Mallorca, Minorca)
+Belarus
+Belgium
+Bosnia & Herzegovina
+Bulgaria
+Corsica
+Crete
+Croatia
+Cyprus, British Sovereign Base Areas of Akrotiri & Dhekelia
+Cyprus, Republic
+Cyprus, Turkish Fed. State
+Czech Republic
+Denmark
+England
+Estonia
+Finland
+France
+Germany
+Gibraltar
+Greece
+Greek Aegean Islands (Cyclades, Dodecanese,
+Northern Aegean Islands)
+Guernsey & Dependencies (Alderney, Herm, Sark)
+Hungary
+Ionian Islands (Corfu, etc.)
+Ireland (Eire)
+Ireland, Northern
+Isle of Man
+Italy
+Jersey
+Kaliningrad
+Kosovo
+Lampedusa
+Latvia
+Liechtenstein
+Lithuania
+Luxembourg
+Malta
+Moldova
+Monaco
+Montenegro
+Netherlands
+North Macedonia
+Norway
+Poland
+Portugal
+Romania
+Russia
+San Marino
+Sardinia
+Scotland
+Serbia
+Sicily
+Slovakia
+Slovenia
+Spain
+Spitsbergen (Svalbard, Bear Island)
+Srpska
+Sweden
+Switzerland
+Transnistria (Pridnestrovie)
+Turkey in Europe (Istanbul)
+Ukraine
+Vatican City
+Wales
+//ANTARCTICA (7)
+Argentine Antarctica (Antarctic Peninsula)
+Australian Antarctic Territory (Davis, Heard, Macquarie, Mawson)
+British Antarctic Territory (Antarctic Peninsula, Graham Land, South Orkney, South Shetland)
+Chilean Antarctic Territory (Antarctic Peninsula)
+French Antarctica (Adélie, Kerguelen)
+New Zealand Antarctica (Ross Dependency)
+Norwegian Dependencies (Bouvet, Peter I Island, Queen Maud Land)
+//AFRICA (55)
+Algeria
+Angola
+Benin
+Botswana
+Burkina Faso
+Burundi
+Cabinda
+Cameroon
+Central African Republic
+Chad
+Congo, Democratic Republic of (Kinshasa)
+Congo, Republic of (Brazzaville)
+Côte d’Ivoire (Ivory Coast)
+Djibouti
+Egypt in Africa
+Equatorial Guinea (Bioko)
+Equatorial Guinea (Rio Muni)
+Eritrea
+Eswatini (Swaziland)
+Ethiopia
+Gabon
+Gambia, The
+Ghana
+Guinea
+Guinea-Bissau
+Kenya
+Lesotho
+Liberia
+Libya
+Malawi
+Mali
+Mauritania
+Morocco
+Morocco, Spanish (Ceuta, Melilla)
+Mozambique
+Namibia
+Niger
+Nigeria
+Rwanda
+Sao Tome & Principe
+Senegal
+Sierra Leone
+Somalia (Italian Somaliland)
+Somaliland (British)
+South Africa
+South Sudan
+Sudan
+Tanzania
+Togo
+Tunisia
+Uganda
+Western Sahara
+Zambia
+Zanzibar
+Zimbabwe
+//MIDDLE EAST (21)
+Abu Dhabi
+Ajman
+Bahrain
+Dubai
+Egypt in Asia (Sinai Peninsula)
+Fujairah
+Iran
+Iraq
+Israel
+Jordan
+Kuwait
+Lebanon
+Oman
+Palestine
+Qatar
+Ras Al Khaimah
+Saudi Arabia
+Sharjah
+Syria
+Umm Al Qaiwain
+Yemen
+//INDIAN OCEAN (15)
+Andaman-Nicobar Islands
+British Indian Ocean Territory (Chagos Archipelago, Diego Garcia)
+Christmas Island
+Cocos (Keeling) Islands
+Comoros (Anjouan, Grand Comoro, Moheli)
+Lakshadweep
+Madagascar
+Maldives
+Mauritius & Dependencies (Agalega, St. Brandon)
+Mayotte (Dzaoudzi)
+Reunion
+Rodrigues Island
+Seychelles
+Socotra
+Zil Elwannyen Sesel (Aldabra, Amirante Islands, Farquhar)
+//ASIA (52)
+Abkhazia
+Afghanistan
+Armenia
+Azerbaijan
+Bangladesh
+Bhutan
+Brunei
+Cambodia
+China, People’s Republic
+Georgia
+Hainan Island
+Hong Kong
+India
+Indonesia (Java)
+Japan
+Jeju Island (South Korea)
+Kalimantan (Indonesian Borneo)
+Kashmir
+Kazakhstan
+Korea, North
+Korea, South
+Kyrgyzstan
+Laos
+Lesser Sunda Islands (Bali, Timor, Indonesia)
+Macau
+Malaysia
+Maluku Islands
+Mongolia, Republic
+Myanmar (Burma)
+Nakhchivan
+Nepal
+Pakistan
+Papua (Irian Jaya)
+Philippines
+Russia in Asia (incl. Siberia)
+Sabah (North Borneo)
+Sarawak
+Sikkim
+Singapore
+South Ossetia
+Sri Lanka (Ceylon)
+Sulawesi (Celebes, Indonesia)
+Sumatra (Indonesia)
+Taiwan. R.O.C.
+Tajikistan
+Thailand
+Tibet
+Timor-Leste
+Turkey in Asia (Anatolia, Ankara, Izmir)
+Turkmenistan
+Uzbekistan
+Vietnam
