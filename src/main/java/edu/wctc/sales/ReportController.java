@@ -21,8 +21,8 @@ public class ReportController
     @Autowired
     public ReportController(DataInput salesList, ShippingRate rate, ReportOutput display)
     {
-        this.in = in;
-        this.out = out;
+        //this.in = in;
+        //this.out = out;
         this.salesList = salesList;
         this.rate = rate;
         this.display = display;
@@ -44,12 +44,14 @@ public class ReportController
         {
             orders.add(new Order(csvFromSales));
             rate.calculateShippingCost(orders.get(i));
-/*            System.out.print(orders.get(i).getCustomer() + "/");
+            /*
+            System.out.print(orders.get(i).getCustomer() + "/");
             System.out.print(orders.get(i).getCountry() + "/");
             System.out.print(orders.get(i).getAmount() + "/");
             System.out.print(orders.get(i).getTax() + "/");
             System.out.print(orders.get(i).getShipping() + "/");
-            System.out.println();*/
+            System.out.println();
+            */
             i++;
         }
         System.out.println("Sales List Converted To Orders");
