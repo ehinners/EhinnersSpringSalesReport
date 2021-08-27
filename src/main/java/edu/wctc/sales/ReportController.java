@@ -31,19 +31,13 @@ public class ReportController
 
     public void report()
     {
-        // First step, get the sales list
-        List<String> sales = salesList.dataIn();
+        // First step, get the orders list
+        List<Order> orders = salesList.dataIn();
         System.out.println("Sales List Gotten");
-        // Second step, convert sales list to order objects
-        // Third step is to calculate each order's shipping,
-        // BUT this can be done in the same loop
-        List<Order> orders = new ArrayList<>();
-        int i = 0;
-        //System.out.print("Customers: ");
-        for (String csvFromSales : sales)
+        // Second step, calculate each order's shipping,
+        for (Order sale : orders)
         {
-            orders.add(new Order(csvFromSales));
-            rate.calculateShippingCost(orders.get(i));
+            rate.calculateShippingCost(sale);
             /*
             System.out.print(orders.get(i).getCustomer() + "/");
             System.out.print(orders.get(i).getCountry() + "/");
@@ -52,9 +46,7 @@ public class ReportController
             System.out.print(orders.get(i).getShipping() + "/");
             System.out.println();
             */
-            i++;
         }
-        System.out.println("Sales List Converted To Orders");
         System.out.println("Shipping Cost Calculated");
         // Fourth step, output the report
         display.displayReport(orders);
