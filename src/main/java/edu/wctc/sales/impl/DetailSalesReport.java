@@ -8,6 +8,11 @@ import java.util.List;
 
 public class DetailSalesReport implements ReportOutput
 {
+    /*
+    This Class is reponsible for displaying a formatted report, as does all DetailSalesReports.
+    This implementation outputs to CONSOLE.
+    This implementation outputs a formatted line of each order found in the argument list.
+    * */
     private String reportTitle = "SALES DETAIL REPORT";
 
     @Override
@@ -30,11 +35,11 @@ public class DetailSalesReport implements ReportOutput
         int i = 0;
         for (Order temp : orders)
         {
-            System.out.printf("%-60s",orders.get(i).getCustomer());
-            System.out.printf("%-57s",orders.get(i).getCountry());
-            System.out.printf("%12.2f",orders.get(i).getAmount());
-            System.out.printf("%12.2f",orders.get(i).getTax());
-            System.out.printf("%12.2f",orders.get(i).getShipping());
+            System.out.printf("%-60s",temp.getCustomer());
+            System.out.printf("%-57s",temp.getCountry());
+            System.out.printf("%12.2f",temp.getAmount());
+            System.out.printf("%12.2f",temp.getTax());
+            System.out.printf("%12.2f",temp.getShipping());
             i++;
             System.out.println();
         }
