@@ -5,6 +5,19 @@ import edu.wctc.sales.iface.ShippingRate;
 
 public class FreeShippingOverThreshold implements ShippingRate {
 
+    /* This class calculates shipment rates based on two factors:
+     - Overall order cost (the "amount" attribute of an order)
+     - Country of origin on an order (the "country" attribute of an order)
+     If the order cost exceeds a defined threshold, shipping is set at the "shippingCostLow"
+     Else, the order cost is defined by the country of origin.
+
+     NOTE: For simplicity, not every country is implemented here for calculation.
+     A more intensive amount of options for countries should be defined by the designated signature of the input.
+     The shipment cost should not be responsible for where a customer is allowed to order from.
+
+     For more detail, see the related interface.
+    */
+
     private double threshold = 80.00;
     private double shippingCostLow = 0.00;
 

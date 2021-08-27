@@ -4,12 +4,19 @@ import edu.wctc.sales.iface.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @Component
 public class ReportController
 {
+    /*
+    This class is the main brains of the program, holding objects and calling methods.
+    The main constructor is handled by part of the spring framework in conjunction with the configuration file.
+    This class is responsible for:
+     - taking input from a DataInput object
+     - Altering it with a ShippingRate object
+     - Then displaying a report through a ReportOutput object
+     */
     private DataInput salesList;
     private UserInput in;
     private ShippingRate rate;
@@ -38,14 +45,6 @@ public class ReportController
         for (Order sale : orders)
         {
             rate.calculateShippingCost(sale);
-            /*
-            System.out.print(orders.get(i).getCustomer() + "/");
-            System.out.print(orders.get(i).getCountry() + "/");
-            System.out.print(orders.get(i).getAmount() + "/");
-            System.out.print(orders.get(i).getTax() + "/");
-            System.out.print(orders.get(i).getShipping() + "/");
-            System.out.println();
-            */
         }
         System.out.println("Shipping Cost Calculated");
         // Third step, output the report

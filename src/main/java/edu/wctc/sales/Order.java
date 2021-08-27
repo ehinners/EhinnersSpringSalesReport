@@ -3,6 +3,13 @@ package edu.wctc.sales;
 import org.springframework.beans.factory.annotation.Autowired;
 
 public class Order {
+    /*
+    Simple object that holds order based information.
+    Constructor converts a csv type String,
+    and puts each respective value into its attribute.
+    Creation of order objects is usually handled by the DataInput,
+    as well as put into an ArrayList.
+    */
     private String customer;
     private String country;
     private double amount;

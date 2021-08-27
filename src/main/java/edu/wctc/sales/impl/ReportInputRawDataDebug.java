@@ -8,6 +8,13 @@ import java.util.List;
 
 public class ReportInputRawDataDebug implements DataInput
 {
+    /*
+    This class provides raw data for the rest of the program to modify and display.
+    Overall more sophisticated implementations from the same interface are intended as input instead of this,
+    but are not necessarily required as part of the scope of the original assignment.
+
+    For more information see the related interface.
+     */
 
     @Override
     public List<Order> dataIn()
@@ -24,20 +31,9 @@ public class ReportInputRawDataDebug implements DataInput
         sales.add("Iain M. Banks,Scotland,75.42,6.71");
         sales.add("Meg Ray,United States,11.99,1.05");
 
-        int i = 0;
-
         for (String csvFromSales : sales)
         {
             orders.add(new Order(csvFromSales));
-            /*
-            System.out.print(orders.get(i).getCustomer() + "/");
-            System.out.print(orders.get(i).getCountry() + "/");
-            System.out.print(orders.get(i).getAmount() + "/");
-            System.out.print(orders.get(i).getTax() + "/");
-            System.out.print(orders.get(i).getShipping() + "/");
-            System.out.println();
-            */
-            i++;
         }
 
         return orders;

@@ -15,7 +15,12 @@ import org.springframework.context.annotation.Configuration;
 @ComponentScan("edu.wctc.sales")
 public class AppConfig
 {
-
+    /*
+    Spring configuration file.
+    Allows spring to instantiate objects needed for the overall program with factory methods.
+    Here, different implementations of interfaces can be defined for greater customization of the program.
+    See each individual interface and implementation for more information, as well as spring framework's documentation.
+     */
     //Signature of ReportController Constructor:
     //public ReportController(DataInput salesList, UserInput in, ShippingRate rate, UserOutput out, ReportOutput display)
 
