@@ -48,7 +48,7 @@ public class ReportController
             */
         }
         System.out.println("Shipping Cost Calculated");
-        // Fourth step, output the report
+        // Third step, output the report
         display.displayReport(orders);
     }
 }
