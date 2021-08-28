@@ -9,7 +9,7 @@ import java.util.List;
 public class DetailSalesReport implements ReportOutput
 {
     /*
-    This Class is reponsible for displaying a formatted report, as does all DetailSalesReports.
+    This Class is responsible for displaying a formatted report, as does all DetailSalesReports.
     This implementation outputs to CONSOLE.
     This implementation outputs a formatted line of each order found in the argument list.
     * */

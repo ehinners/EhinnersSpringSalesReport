@@ -3,10 +3,7 @@ package edu.wctc.sales;
 import edu.wctc.sales.iface.DataInput;
 import edu.wctc.sales.iface.ReportOutput;
 import edu.wctc.sales.iface.ShippingRate;
-import edu.wctc.sales.impl.DetailSalesReport;
-import edu.wctc.sales.impl.FreeShipping;
-import edu.wctc.sales.impl.FreeShippingOverThreshold;
-import edu.wctc.sales.impl.ReportInputRawDataDebug;
+import edu.wctc.sales.impl.*;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -31,7 +28,10 @@ public class AppConfig
     }
 
     @Bean
-    public ReportOutput dataOutput() {return new DetailSalesReport();}
+    public ReportOutput dataOutput() {
+        //return new DetailSalesReport();
+        return new SummarySalesReport();
+    }
 
     @Bean
     public ShippingRate shippingRate()
